@@ -4,7 +4,7 @@ class Cat { //This is a class
 
    String species = "lilac lynx siamese";
 
-   public void changeSpecies(String species) {
+   public void changeSpecies(String species) { //changeSpecies is a method
       this.species = species;
          //The this keyword is used to distinguish between the class variable and the local variable.
          // this.species is lilac lynx siamese until it is changed by the local variable in this method.
@@ -15,7 +15,7 @@ class Cat { //This is a class
 
 public class Two {
 
-   public static void main(String []args) {
+   public static void main(String []args) { //This is a String 
       Cat snowflake = new Cat(); //Snowflake is an object
       snowflake.changeSpecies("tabby");
    }
